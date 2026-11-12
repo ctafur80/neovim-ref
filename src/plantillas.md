@@ -1,0 +1,10 @@
+---
+title: "Plantillas"
+level: h3
+---
+
+Se puede configurar Vim para que tenga funcionalidad de [crear y usar
+plantillas](https://shapeshed.com/vim-templates/) (_templates_).
+
+
+

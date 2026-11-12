@@ -1,0 +1,25 @@
+---
+title: "Con LSP"
+level: h4
+---
+
+Hasta hace relativamente poco, el autocompletado de LSP debía realizarse con
+algún _plug-in_. El más popular era <span class="paq">[`nvim-cmp`][]</span>. A partir de la
+versión 0.10, Neovim cuenta de serie con autocompletado. La parte del código
+se implementa con el [_pull request_ (PR)
+27339][pr-built-in-autocompletion].
+
+[`nvim-cmp`]: https://github.com/hrsh7th/nvim-cmp
+[pr-built-in-autocompletion]: https://github.com/neovim/neovim/pull/27339
+
+En esta funcionalidad, también se puede usar para los retazos (_snippets_),
+aunque personalmente no los uso.
+
+
+
+
+
+[_insert mode completion_](https://neovim.io/doc/user/insert.html#ins-completion)
+
+
+

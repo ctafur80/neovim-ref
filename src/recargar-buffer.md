@@ -1,0 +1,17 @@
+---
+title: "Recargar _buffer_"
+level: h3
+---
+
+Se hace con
+
+```vim
+:so %
+```
+
+tal y como explican
+[aquí](https://superuser.com/questions/132029/how-do-you-reload-your-vimrc-file-without-restarting-vim)
+
+No sé por qué pero siempre me da problemas.
+
+

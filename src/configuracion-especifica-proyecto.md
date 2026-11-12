@@ -1,0 +1,49 @@
+---
+title: "Ajustes específicos de proyecto"
+level: h3
+---
+
+Existen varias cosas que se pueden hacer para aplicar una capa de ajustes a
+un directorio en conctreo, incluyendo a todo lo que se encuentre "bajo"
+este.
+
+Desde hace mucho, Vim traía la funcionalidad que se conoce como _modeline_.
+Consiste en la especificación de ajustes de Vim en comentarios del código
+TKTK.
+
+Lo cierto es que nunca me ha gustado hacer uso de esta funcionalidad. Hay
+varias razones: pueden originar problemas de seguridad, "ensucian" los
+archivos del proyecto, etc.
+
+Actualmente, Neovim [trae compatibilidad][neovim-editorconfig] de serie con
+[EditorConfig][], que es un _software_ para la especificación de ciertos
+ajustes básicos de editor, como indentación, etc. Lo único que tiene que
+hacer es crear, en el directorio raíz del proyecto, un archivo llamado
+_.editorconfig_, especificando en este, en el formato EditorConfig, los
+ajustes que desea que se apliquen a todo el proyecto.
+
+[neovim-editorconfig]: https://neovim.io/doc/user/editorconfig.html
+[EditorConfig]: https://editorconfig.org/
+
+Con esta solución, no tendrá tantas posibilidades como con la _modeline_, ya
+que se trata ---tal y como he dicho--- de ajustes básicos de editores. En
+cualquier caso, los ajustes avanzados de Neovim sería deseable hacerlos en
+función de los distintos lenguajes que se estén editando, por medio de
+[autocomandos][].
+
+Evidentemente, tanto con los ajustes de _modeline_ como con el archivo de
+EditorConfig, estos "pisan" los de la configuración general de Neovim.
+
+Para quien, aun sabiendo esto, desee especificar para un proyecto ajustes
+avanzados de Neovim, existe con este propósito un _plug-in_ llamado
+<span class="plgin">[Neoconf][]</span>.
+
+[Neoconf]: https://github.com/folke/neoconf.nvim
+
+Otra opción podría ser haciendo uso de algún entorno para el proyecto. Por
+ejemplo, un contenedor Docker o un entorno Nix. Gracias al entorno, se
+podrían especificar también algunos ajustes de Neovim. TKTK.
+
+
+
+

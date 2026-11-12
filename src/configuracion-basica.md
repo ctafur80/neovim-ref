@@ -1,0 +1,8 @@
+---
+title: "Configuración básica"
+level: h3
+---
+
+<https://www.youtube.com/watch?v=rDRZEd5v3y0&feature=youtu.be>
+
+

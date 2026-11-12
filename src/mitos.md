@@ -1,0 +1,32 @@
+---
+title: "Mitos"
+level: h2
+---
+
+La mayoría de la gente piensa que lo que gusta de Neovim a sus partidarios
+son cosas como lo de moverse con las teclas <kbd>h</kbd>, <kbd>j</kbd>, etc. y
+otra serie de cosas. En realidad, no es solo eso. Vim (así como Neovim)
+cuenta con ciertas genialidades a la hora de editar, como, por ejemplo,
+realizar una acción sobre una lista de argumentos, [deshacer con ramas],
+etc. y hacerlo siempre desde el teclado de forma cómoda y rápida.
+
+En realidad, lo mejor de Vim y Neovim son sus modos (_modes_) y que ambos
+son _hackeables_ (_hackable_). TKTK. Por eso, no soy partidario de usar
+distribuciones de Neovim como LunarVim y cosas así. TKTK. Con estas
+distribuciones se tiene algo así como un IDE (como VSCode, por ejemplo),
+solo que menos estable. En relidad, creo que el uso ideal de Vim y sus
+descendientes está en "abrazar" el minimalismo, aunque no completamente.
+TKTK.
+
+<https://www.youtube.com/watch?v=9hSHW2Gf0rM>
+
+El típico ejemplo de a lo que me refiero con _hackeable_ son los
+autocomandos. TKTK.
+
+
+
+Otro argumento que apoya el uso de Vim o algo similar, en detrimento de
+IDEs, es que los agentes de código de AI hacen que muchas de las
+funcionalidades de uso de estos últimos dejen de tener relevancia.
+
+
